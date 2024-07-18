@@ -107,7 +107,7 @@ video::-webkit-media-controls {
 .black-button-global{
   border-radius: 12px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 10px;
   font-size: 16px;
   font-weight: 600;
 
@@ -152,6 +152,9 @@ video::-webkit-media-controls {
 }
 .sec-4-image-container{
   width:50%
+}
+.heading{
+  font-size: 50px;
 }
 
 
@@ -238,21 +241,33 @@ video::-webkit-media-controls {
   .nav-options{
     display: none;
   }
+  .black-button-global{
+   
+    font-size: 16px;
+  }
+  .heading{
+    font-size: 40px;
+  }
   .sec-4-home-text{
     font-size: 24px;
     width: 70%;
   }
   .sec-4-container{
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
   }
   .sec-4-text-container{
     width: 100%;
     flex-direction: row;
+    padding: 0px;
     gap: 0px;
     height: 200px;
   }
   .sec-4-image-container{
     width: 100%;
+    justify-content: center;
   }
   
   .sec-4-home{

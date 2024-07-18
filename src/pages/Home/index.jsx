@@ -148,7 +148,7 @@ const Home = () => {
             <div style={{ display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center'}} className="">
                 <div style={{ display: 'flex', maxWidth: '1440px',width:'100%',  height:'100%', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }} className="">
                     <div style={{width:'100%'}} className="">
-                    <h2 style={{fontSize:'50px'}}>Selected work <span style={{color:'#0cff9a'}}>.</span></h2>
+                    <h2 className='heading' >Selected work <span style={{color:'#0cff9a'}}>.</span></h2>
                     </div>
                 </div>
                 <div style={{borderTop:'1px solid rgb(46, 46, 46)', width:'100%', display:'flex', justifyContent:'center', flexWrap:'wrap'}} className="hover-highlight">
