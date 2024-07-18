@@ -1,0 +1,102 @@
+#root {
+  
+  margin: 0 auto;
+ 
+  
+}
+.navbar{
+  width: 100%;
+ 
+  border-bottom: 1px solid rgb(46, 46, 46);
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+.inner-nav-container{
+  width: 100%;
+  max-width: 1440px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo img{
+  height: 3.5rem;
+  width: auto;
+  padding: 0.4rem;
+
+}
+.nav-options ul{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  list-style: none;
+  gap: 15px;
+  
+}
+.nav-options ul li:hover{
+  color: grey;
+  transition: 0.3s ;
+
+}
+
+.header-options{
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 132px;
+  
+ 
+}
+.nav-button button{
+  font-size: 16px;
+}
+.nav-slidbar{
+  height: 40px;
+  width: 40px;
+  border-radius: 12px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;  
+}
+
+.word {
+  display: inline-block;
+  transform: translateY(100%);
+  opacity: 0;
+  animation: reveal 0.5s ease forwards;
+}
+
+@keyframes reveal {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.projects{
+  position: relative;
+
+  overflow: hidden;
+  background-color: transparent;
+  padding: 10px;
+  height: 100px;
+  border-radius: 20px;
+}
+.projects:hover{
+  background-color: rgb(46, 46, 46);
+  transition: 0.3s;
+}
