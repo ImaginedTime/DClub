@@ -21,7 +21,7 @@ const index = () => {
                 <div className="nav-button">
                     <button className='white-button'>Get a quote</button>
                 </div>
-                <div  className="nav-slidbar   ">
+                <div  className="nav-slidbar ">
                     <TbChartDots3 className='black-button ' style={{ height:'30px' , width:'30px'}} />
                 </div>
             </div>

@@ -43,8 +43,8 @@ const Home = () => {
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <div style={{ maxWidth: '1440px', width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' }}>
-                    <div style={{ width: '55%', fontSize: '27px', padding: '10px' }}>
-                        <h1 className='animated-text'>
+                    <div  style={{ width: '55%', fontSize: '27px', padding: '10px' }}>
+                        <h1 className='animated-text hero-text'  >
                             <span className='word'>A</span> <span className='word' style={{ color: '#A0A0A2' }}>place</span> <span className='word'>to</span> <span className='word'>Create,</span> <br /> <span className='word'>Collaborate</span> <span className='word'>and </span> <br /> <span className='word' style={{ color: '#A0A0A2' }}>Elevate</span> <span className='word' style={{ color: '#0cff9a' }}>.</span>
                         </h1>
                     </div>
@@ -54,6 +54,7 @@ const Home = () => {
                             background="#FFFFFF"
                             speed="1"
                             style={{ width: "600px", height: "600px" }}
+                            className='paper-plane'
                             loop
                             controls
                             autoplay
@@ -114,7 +115,6 @@ const Home = () => {
                         ref={videoRef}
                         onClick={handlePlayPause}
                         src={videosig}
-                        muted
                         style={{ display: 'block', maxWidth: '100%', borderRadius: '20px' ,overflow:'hidden'}}
                         poster="https://a.storyblok.com/f/198185/2688x1514/19ebaabf98/new-showreel-cover.jpg/m/0x0/"
                     />
@@ -143,6 +143,46 @@ const Home = () => {
                             Play showreel
                         </button>
                     )}
+                </div>
+            </div>
+            <div style={{ display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center'}} className="">
+                <div style={{ display: 'flex', maxWidth: '1440px',width:'100%',  height:'100%', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }} className="">
+                    <div style={{width:'100%'}} className="">
+                    <h2 style={{fontSize:'50px'}}>Selected work <span style={{color:'#0cff9a'}}>.</span></h2>
+                    </div>
+                </div>
+                <div style={{borderTop:'1px solid rgb(46, 46, 46)', width:'100%', display:'flex', justifyContent:'center', flexWrap:'wrap'}} className="hover-highlight">
+                    <div style={{ display: 'flex', maxWidth: '1440px',width:'100%',  height:'100%', gap: '20px',  justifyContent: 'center', alignItems: 'center' }} className="">
+                        <div className="sec-4-container">
+                            <div className="sec-4-text-container">
+                                <h2 className='sec-4-home-text' > <span style={{color: '#A0A0A2'}}>Dia</span><span>.</span><br />An app to empower women in there fertility journey</h2>
+                                <div className="">
+                                <button className='black-button-global'>View Project</button>
+                                </div>
+                            </div>
+                            <div className="sec-4-image-container">
+                            <img className='sec-4-home' style={{maxWidth:'650px', borderRadius:'20px'} } src="https://a.storyblok.com/f/198185/2000x1200/82719718c4/image-4.jpeg/m/0x0/" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{ display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center' }} className="">
+                
+            <div style={{borderTop:'1px solid rgb(46, 46, 46)', width:'100%', display:'flex', justifyContent:'center', }} className="hover-highlight">
+                    <div style={{ display: 'flex', maxWidth: '1440px',width:'100%',  height:'100%', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }} className="">
+                        <div className="sec-4-container">
+                            <div className="sec-4-text-container">
+                                <h2 className='sec-4-home-text' > <span style={{color: '#A0A0A2'}}>Dia</span><span>.</span><br />An app to empower women in there fertility journey</h2>
+                                <div className="">
+                                <button className='black-button-global'>View Project</button>
+                                </div>
+                            </div>
+                            <div  className="sec-4-image-container">
+                            <img className='sec-4-home' style={{maxWidth:'650px', borderRadius:'20px'} } src="https://a.storyblok.com/f/198185/2000x1200/82719718c4/image-4.jpeg/m/0x0/" alt="" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
