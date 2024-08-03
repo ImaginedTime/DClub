@@ -1,20 +1,20 @@
 import React from 'react'
 import logo from '../../assets/dclub@4x.png'
 import { TbChartDots3 } from "react-icons/tb";
-
+import {Link} from 'react-router-dom'
 const index = () => {
   return (
     <div className='navbar'>
         <div className="inner-nav-container">
             <div className="header-logo">
-                <img src={logo} alt="" />
+                <Link to='/'><img src={logo} alt="" /></Link>
             </div>
             <div className="header-options">
                 <div className="nav-options">
                     <ul>
                         <li>Project <div className="highlight"></div></li>
                         <li>Services</li>
-                        <li>About</li>
+                        <Link to='about'><li>About</li></Link>
                         <li>Handbook</li>
                     </ul>
                 </div>

@@ -279,3 +279,10 @@ video::-webkit-media-controls {
   }
   
 }
+
+/* Add this to your CSS file or a style tag */
+.canvas-container {
+  overflow: auto; /* Allow scrolling if content is larger than container */
+  width: 100%; /* Or adjust according to your layout */
+  height: 100vh; /* Adjust height as needed */
+}

@@ -1,0 +1,6 @@
+.canvas-container {
+  position: relative;
+  width: 1440px; /* or whatever width you need */
+  height: 600px; /* or whatever height you need */
+  overflow: hidden;
+}
