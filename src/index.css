@@ -98,3 +98,78 @@ h1 {
 .white-button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+/* input[type=range]::-webkit-slider-thumb {
+  background-image: url('');
+  https://significa.co/_app/immutable/assets/needle-head.b23a60d0.webp
+} */
+
+/* Container to position the slider */
+.slider-container {
+  position: relative;
+  width: 300px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  margin: 20px;
+}
+
+/* Hide the default track */
+input[type="range"] {
+  -webkit-appearance: none; /* Hides the default slider in WebKit browsers */
+  width: 100%;
+  height: 100%;
+  background: transparent; /* Hide track background */
+}
+
+/* Hide the default track in Firefox */
+input[type="range"]::-moz-range-track {
+  background: transparent;
+}
+
+/* Hide the default track in IE */
+input[type="range"]::-ms-track {
+  background: transparent;
+}
+
+/* Custom thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 80px; /* Adjust thumb width */
+  height: 90px; /* Adjust thumb height */
+  background: url('https://significa.co/_app/immutable/assets/needle-head.b23a60d0.webp') no-repeat center center; /* Custom thumb image */
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* Custom thumb in Firefox */
+input[type="range"]::-moz-range-thumb {
+  width: 80px; /* Adjust thumb width */
+  height: 90px; /* Adjust thumb height */
+  background: url('https://significa.co/_app/immutable/assets/needle-head.b23a60d0.webp') no-repeat center center; /* Custom thumb image */
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* Custom thumb in IE */
+input[type="range"]::-ms-thumb {
+  width: 80px; /* Adjust thumb width */
+  height: 90px; /* Adjust thumb height */
+  background: url('https://significa.co/_app/immutable/assets/needle-head.b23a60d0.webp') no-repeat center center; /* Custom thumb image */
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* Hide the track in Firefox */
+input[type="range"]::-moz-range-track {
+  background: transparent;
+}
+
+/* Hide the track in IE */
+input[type="range"]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

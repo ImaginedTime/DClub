@@ -13,7 +13,7 @@ const index = () => {
                 <div className="nav-options">
                     <ul>
                         <li>Project <div className="highlight"></div></li>
-                        <li>Services</li>
+                        <Link to='services'><li>Services</li></Link>
                         <Link to='about'><li>About</li></Link>
                         <li>Handbook</li>
                     </ul>
